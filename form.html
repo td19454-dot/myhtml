@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="/contacy_me.php">
+       <label for = "email"> user name :</label>
+       <input type = "text" placeholder="email" required="true"><br>
+       <label for = "new password"> password :</label>
+       <input type = "password" placeholder="new password" required="true"><br>
+       <label for = "birth date"> date:</label>
+       <input type = "date" placeholder="birthdate" required="true"><br>
+       <label for = "choose grade card"> File :</label>
+       <input type = "file" placeholder="choose grade card" required="true"><br>
+       <label for = "choose the color for ur t shirt"> color :</label>
+       <input type = "color" placeholder="choose the color for ur t shirt" required="true"><br>
+        <label for = "price range"> price range:</label>
+       <input type = "range" placeholder="price range" required="true"><br>
+       <input type = "submit"><br>
+       button <input type = "button" value = "click me"><br>
+    <!--radio  botton-->
+      <label for = "male">male :</label>
+      <input type = "radio" id = "Male" name = "gender" value = "Male">
+      <label for = "Female">female :</label>
+      <input type = "radio" id = "female" name = "gender" value = "female">
+     <label for = "other">other :</label>
+      <input type = "radio" id = "other" name = "gender" value = "other"><br>
+    <!--check box-->
+      <label for = "python">python :</label>
+      <input type = "checkbox" id = "python" name = "lang" value = "python">
+      <label for = "sql">sql :</label>
+      <input type = "checkbox" id = "sql" name = "lang" value = "sql">
+     <label for = "java">java :</label>
+      <input type = "checkbox" id = "java" name = "lang" value = "java">
+      <label for = "html">html:</label>
+      <input type = "checkbox" id = "html" name = "lang" value = "html"><br>
+    <!--drop down button-->
+     <label for = "state" > choose ur state :</label>
+     <select id = "state" name = "state">
+        <option value="west bengal">west bengal</option>
+        <option value="kashmir">kashmir</option>
+        <option value="kerala">kerala</option>
+        <option value="assam">assam</option>
+        <option value="up">uttar pradesh</option>
+        <option value="punjab">punjab</option>
+        <option value="odisha">odisha</option>
+        <option value="sikkim">sikkim</option>
+        <option value="himachal pradesh">himachal pradesh</option>
+        <option value="bihar">bihar</option>
+     </select>
+     <br><textarea rows = 5 cols = 40>
+            write about urself
+    </textarea>
+    </form>
+</body>
+</html>
